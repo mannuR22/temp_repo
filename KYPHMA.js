@@ -32,7 +32,7 @@ db.LCItemLines.updateOne({ itemId: "BD06" }, {
     }
 })
 
-db.LCItems.insertOne({
+db.LCItems.updateOne({
     
     
     "isActive": true,
