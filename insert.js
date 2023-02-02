@@ -1,8 +1,8 @@
-db.LCItems.insertOne(
+db.LCItems.updateOne({"itemId": "KD02"}, {$set:
     {
         "logicType": "AD02",
         "isActive": true,
-        "itemId": "KD02",
+        
         "itemType": "AD",
         "factorId": "",
         "statement": "The primary responsibility of raising a child belongs to the woman, not the man.",
@@ -11,7 +11,7 @@ db.LCItems.insertOne(
           "disagree"
         ]
       }
-);
+    });
 
 db.LCItems.insertOne({
     
