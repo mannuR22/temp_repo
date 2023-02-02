@@ -13,10 +13,10 @@ db.LCItems.updateOne({"itemId": "KD02"}, {$set:
       }
     });
 
-db.LCItems.insertOne({
+db.LCItems.updateOne({"itemId": "CT009"},{$set:{
     
     "isActive": true,
-    "itemId": "CT009",
+    
     "itemType": "CS",
     "factorId": "",
     "statement": "What brings you here? Choose the most appropriate one.",
@@ -27,7 +27,7 @@ db.LCItems.insertOne({
       "I am just curious",
       "I want to check compatibility"
     ]
-  });
+  }});
 
   db.LIItems.updateOne({"itemId": "KD02"}, { $set: 
     {
