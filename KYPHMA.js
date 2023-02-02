@@ -3,6 +3,19 @@
 
 
 
+
+
+
+
+db.LIItems.insertOne({
+    factorId: 'IS011',
+    itemId: 'KDG03',
+    itemType: 'S',
+    optionBullets: ['Agree', 'Disagree'],
+    statement: 'After I commit, I want to wait for at least two years before having/adopting kids.',
+    itemImageUrl: 'https://happilyever-media.s3.ap-south-1.amazonaws.com/LC_Item_Images/KYP/KDG03.svg',
+    itemWeight: NumberLong(5)
+});
 db.LIItems.insertOne({
 
     factorId: 'OS001',
@@ -21,7 +34,7 @@ db.LIItems.insertOne({
     ],
     statement: 'What are the things I can’t compromise in my relationship?',
     itemImageUrl: 'https://happilyever-media.s3.ap-south-1.amazonaws.com/LC_Item_Images/KYP/BD09.svg',
-    itemWeight: Long("7"),
+    itemWeight: NumberLong(7),
 });
 db.LIItems.insertOne({
     factorId: '',
@@ -29,7 +42,7 @@ db.LIItems.insertOne({
     itemType: 'C',
     optionBullets: ["Yes", "No"],
     statement: 'Do you have someone special that you see a future with?',
-    itemWeight: Long("1")
+    itemWeight: NumberLong(1)
 });
 
 db.LIItems.insertOne({
@@ -38,7 +51,7 @@ db.LIItems.insertOne({
     itemType: 'S',
     optionBullets: ['Agree', 'Disagree'],
     statement: 'The primary responsibility of raising a child belongs to the woman, not the man.',
-    itemWeight: Long("1")
+    itemWeight: NumberLong(1)
 });
 db.LIItems.insertOne({
     itemId: "CT009",
@@ -62,7 +75,7 @@ db.LIItems.insertOne({
 
     optionBullets: ['Agree', 'Disagree'],
     statement: 'I prefer my partner not to have many friends of opposite gender and similar age group.',
-    itemWeight: Long("5"),
+    itemWeight: NumberLong(5),
     itemImageUrl: 'https://happilyever-media.s3.ap-south-1.amazonaws.com/LC_Item_Images/KYP/BD01.svg'
 });
 db.LIItems.insertOne({
@@ -75,7 +88,7 @@ db.LIItems.insertOne({
 
     optionBullets: ['Agree', 'Disagree'],
     statement: 'I don’t mind my partner looking through my cell phone.',
-    itemWeight: Long("3"),
+    itemWeight: NumberLong(3),
     itemImageUrl: 'https://happilyever-media.s3.ap-south-1.amazonaws.com/LC_Item_Images/KYP/BD02.svg'
 });
 db.LIItems.insertOne({
@@ -101,8 +114,8 @@ db.LIItems.insertOne({
         'My partner not being available round the clock when i am sick no matter how busy the partner is.'
     ],
     statement: 'What are the things I cannot compromise in marriage?',
-    itemWeight: Long("7"),
-    multiSelectItemConnectMax: Long("9"),
+    itemWeight: NumberLong(7),
+    multiSelectItemConnectMax: NumberLong(9),
     itemImageUrl: 'https://happilyever-media.s3.ap-south-1.amazonaws.com/LC_Item_Images/KYP/BD06.svg'
 });
 db.LIItems.insertOne({
@@ -115,7 +128,7 @@ db.LIItems.insertOne({
 
     optionBullets: ['Agree', 'Disagree'],
     statement: "At the end of a stressful day at work, I expect my partner to comfort me, irrespective of how my partner's day went.",
-    itemWeight: Long("3"),
+    itemWeight: NumberLong(3),
     itemImageUrl: 'https://happilyever-media.s3.ap-south-1.amazonaws.com/LC_Item_Images/KYP/EI02.svg'
 });
 db.LIItems.insertOne({
@@ -128,7 +141,7 @@ db.LIItems.insertOne({
 
     optionBullets: ['Agree', 'Disagree'],
     statement: "The man doesn't need to help the woman in the household chores unless she specifically asks or communicates about it.",
-    itemWeight: Long("5"),
+    itemWeight: NumberLong(5),
     itemImageUrl: 'https://happilyever-media.s3.ap-south-1.amazonaws.com/LC_Item_Images/KYP/EX01.svg'
 });
 db.LIItems.insertOne({
@@ -141,7 +154,7 @@ db.LIItems.insertOne({
 
     optionBullets: ['Every day', 'Once a week', 'Once in 2 weeks', 'Once a month'],
     statement: 'How often would you like to do fun or romantic activities with your partner - for example, taking a walk, gardening, watching movies, etc.? ',
-    itemWeight: Long("3"),
+    itemWeight: NumberLong(3),
     itemImageUrl: 'https://happilyever-media.s3.ap-south-1.amazonaws.com/LC_Item_Images/KYP/EX04.svg'
 });
 db.LIItems.insertOne({
@@ -160,8 +173,8 @@ db.LIItems.insertOne({
         'Acts of service - doing chores for your partner to make them feel quite comfortable'
     ],
     statement: 'Pick your preferred love language - the way in which you express and receive love from your partner.',
-    itemWeight: Long("7"),
-    multiSelectItemConnectMax: Long("3"),
+    itemWeight: NumberLong(7),
+    multiSelectItemConnectMax: NumberLong(3),
     itemImageUrl: 'https://happilyever-media.s3.ap-south-1.amazonaws.com/LC_Item_Images/KYP/EX05.svg'
 });
 db.LIItems.insertOne({
@@ -174,7 +187,7 @@ db.LIItems.insertOne({
 
     optionBullets: ['Agree', 'Disagree'],
     statement: 'I would like my partner and I to spend time with other couples by inviting them over for dinner or potluck.',
-    itemWeight: Long("3"),
+    itemWeight: NumberLong(3),
     itemImageUrl: 'https://happilyever-media.s3.ap-south-1.amazonaws.com/LC_Item_Images/KYP/EX07.svg'
 });
 db.LIItems.insertOne({
@@ -187,7 +200,7 @@ db.LIItems.insertOne({
 
     optionBullets: ['Agree', 'Disagree'],
     statement: 'I would like my partner and I to go on trips with other couples who are friends.',
-    itemWeight: Long("3"),
+    itemWeight: NumberLong(3),
     itemImageUrl: 'https://happilyever-media.s3.ap-south-1.amazonaws.com/LC_Item_Images/KYP/EX08.svg'
 });
 db.LIItems.insertOne({
@@ -200,7 +213,7 @@ db.LIItems.insertOne({
 
     optionBullets: ['Agree', 'Disagree'],
     statement: 'Money should not be given to even immediate family if your partner disapproves of it after discussion.',
-    itemWeight: Long("7"),
+    itemWeight: NumberLong(7),
     itemImageUrl: 'https://happilyever-media.s3.ap-south-1.amazonaws.com/LC_Item_Images/KYP/FN01.svg'
 });
 db.LIItems.insertOne({
@@ -212,7 +225,7 @@ db.LIItems.insertOne({
     itemType: 'MS',
     optionBullets: ['My parents', "Partner's parents", 'Friends/Relatives', 'None'],
     statement: 'You as a couple need some extra money to cover certain expense - vacation, home, car etc. With whom are you okay to take money from to cover your expense?',
-    itemWeight: Long("3"),
+    itemWeight: NumberLong(3),
     itemImageUrl: 'https://happilyever-media.s3.ap-south-1.amazonaws.com/LC_Item_Images/KYP/FN04.svg'
 });
 db.LIItems.insertOne({
@@ -223,7 +236,7 @@ db.LIItems.insertOne({
     itemType: 'S',
     optionBullets: ['Agree', 'Disagree'],
     statement: 'After a fight with my partner, I would not speak to my partner for a few days to maintain peace.',
-    itemWeight: Long("1"),
+    itemWeight: NumberLong(1),
     itemImageUrl: 'https://happilyever-media.s3.ap-south-1.amazonaws.com/LC_Item_Images/KYP/HC02.svg'
 });
 db.LIItems.insertOne({
@@ -241,7 +254,7 @@ db.LIItems.insertOne({
         'Do nothing'
     ],
     statement: 'Imagine a situation where your partner tells you that your parent did something bad that seems unbelievable. I would then:',
-    itemWeight: Long("5"),
+    itemWeight: NumberLong(5),
     itemImageUrl: 'https://happilyever-media.s3.ap-south-1.amazonaws.com/LC_Item_Images/KYP/HC04.svg'
 });
 db.LIItems.insertOne({
@@ -254,7 +267,7 @@ db.LIItems.insertOne({
 
     optionBullets: ['Agree', 'Disagree'],
     statement: 'I won’t share the bed with my partner if we have a fight.',
-    itemWeight: Long("3"),
+    itemWeight: NumberLong(3),
     itemImageUrl: 'https://happilyever-media.s3.ap-south-1.amazonaws.com/LC_Item_Images/KYP/HC05.svg'
 });
 db.LIItems.insertOne({
@@ -299,8 +312,8 @@ db.LIItems.insertOne({
         'Drawing'
     ],
     statement: 'I am into:',
-    itemWeight: Long("7"),
-    multiSelectItemConnectMax: Long("5"),
+    itemWeight: NumberLong(7),
+    multiSelectItemConnectMax: NumberLong(5),
     itemImageUrl: 'https://happilyever-media.s3.ap-south-1.amazonaws.com/LC_Item_Images/KYP/HI01.svg'
 });
 db.LIItems.insertOne({
@@ -336,8 +349,8 @@ db.LIItems.insertOne({
         'Trustworthy'
     ],
     statement: 'Pick top 5 qualities you would prefer your partner to have:',
-    itemWeight: Long("5"),
-    multiSelectItemConnectMax: Long("5")
+    itemWeight: NumberLong(5),
+    multiSelectItemConnectMax: NumberLong(5)
 });
 db.LIItems.insertOne({
 
@@ -349,7 +362,7 @@ db.LIItems.insertOne({
 
     optionBullets: ['Agree', 'Disagree'],
     statement: 'I don’t mind losing a game to my partner if that makes my partner feel good.',
-    itemWeight: Long("1"),
+    itemWeight: NumberLong(1),
     itemImageUrl: 'https://happilyever-media.s3.ap-south-1.amazonaws.com/LC_Item_Images/KYP/IC02.svg'
 });
 db.LIItems.insertOne({
@@ -362,7 +375,7 @@ db.LIItems.insertOne({
 
     optionBullets: ['Agree', 'Disagree'],
     statement: 'I’ll make it clear to my partner if and when I am unhappy in bed.',
-    itemWeight: Long("3"),
+    itemWeight: NumberLong(3),
     itemImageUrl: 'https://happilyever-media.s3.ap-south-1.amazonaws.com/LC_Item_Images/KYP/PI03.svg'
 });
 db.LIItems.insertOne({
@@ -375,7 +388,7 @@ db.LIItems.insertOne({
 
     optionBullets: ['Agree', 'Disagree'],
     statement: 'I would like to keep sex in a traditional manner and not experiment with new things with my partner.',
-    itemWeight: Long("1"),
+    itemWeight: NumberLong(1),
     itemImageUrl: 'https://happilyever-media.s3.ap-south-1.amazonaws.com/LC_Item_Images/KYP/PI04.svg'
 });
 db.LIItems.insertOne({
@@ -388,7 +401,7 @@ db.LIItems.insertOne({
 
     optionBullets: ['Agree', 'Disagree'],
     statement: 'I believe in God or a higher power.',
-    itemWeight: Long("7"),
+    itemWeight: NumberLong(7),
     itemImageUrl: 'https://happilyever-media.s3.ap-south-1.amazonaws.com/LC_Item_Images/KYP/SI01.svg'
 });
 
