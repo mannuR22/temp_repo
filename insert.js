@@ -29,7 +29,7 @@ db.LCItems.insertOne({
     ]
   });
 
-  db.LIItems.insertOne({"itemId": "KD02"}, { $set: 
+  db.LIItems.updateOne({"itemId": "KD02"}, { $set: 
     {
         "logicType": "AD02",
         "isActive": true,
