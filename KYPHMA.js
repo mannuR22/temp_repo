@@ -3,19 +3,6 @@
 
 
 
-
-
-
-
-  db.LIItems.insertOne({
-    factorId: 'IS011',
-    itemId: 'KDG03',
-    itemType: 'S',
-    optionBullets: ['Agree', 'Disagree'],
-    statement: 'After I commit, I want to wait for at least two years before having/adopting kids.',
-    itemImageUrl: 'https://happilyever-media.s3.ap-south-1.amazonaws.com/LC_Item_Images/KYP/KDG03.svg',
-    itemWeight: Long("5")
-});
 db.LIItems.insertOne({
 
     factorId: 'OS001',
