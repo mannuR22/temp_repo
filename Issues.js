@@ -420,3 +420,14 @@ for (obj of kypIssuesObj) {
         db.LIItems.createIndex({ itemId: 1 });
     }
 }
+
+db.LCItems.insertOne({"itemId": "KK01",
+  "itemType": "L",
+  "createdAt": 1659758000,
+  "factorId": "FIC07",
+  "logicType": "",
+  "isActive": true,
+  "statement": "A couple can plan for a child, especially if the biological clock is ticking, even if they don’t agree on finances around raising a child.",
+  "optionBullets": null
+
+});
