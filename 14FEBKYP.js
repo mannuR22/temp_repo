@@ -5531,15 +5531,9 @@ db.LAssessments.updateOne({ "assessmentId": "833b04bc-edac-4ebc-b28b-fba70de4089
           itemIds: ['HI01'],
           pageId: 'B62003',
           decisionItems: [],
-          nextPageDecisionBlocks: [{ regExCode: '*', nextPageId: 'B62004' }]
-        }
-        ,
-        {
-          itemIds: ['EX01'],
-          pageId: 'B62004',
-          decisionItems: [],
           nextPageDecisionBlocks: [{ regExCode: '*', nextPageId: 'B62005' }]
         }
+        
         ,
         {
           itemIds: ['FN01'],
@@ -5803,16 +5797,10 @@ db.LAssessments.updateOne({ "assessmentId": "833b04bc-edac-4ebc-b28b-fba70de4089
           itemIds: ['EI02'],
           pageId: 'A73019',
           decisionItems: [],
-          nextPageDecisionBlocks: [{ regExCode: '*', nextPageId: 'A73021' }]
-        }
-  
-        ,
-        {
-          itemIds: ['EX01'],
-          pageId: 'A73021',
-          decisionItems: [],
           nextPageDecisionBlocks: [{ regExCode: '*', nextPageId: 'A73022' }]
         }
+  
+        
         ,
         {
           itemIds: ['EX03'],
@@ -6324,15 +6312,9 @@ db.LAssessments.updateOne({ "assessmentId": "833b04bc-edac-4ebc-b28b-fba70de4089
           itemIds: ['EI02'],
           pageId: 'B73036',
           decisionItems: [],
-          nextPageDecisionBlocks: [{ regExCode: '*', nextPageId: 'B73038' }]
-        }
-        ,
-        {
-          itemIds: ['EX01'],
-          pageId: 'B73038',
-          decisionItems: [],
           nextPageDecisionBlocks: [{ regExCode: '*', nextPageId: 'B73039' }]
         }
+        
         ,
         {
           itemIds: ['EX03'],
@@ -6750,15 +6732,9 @@ db.LAssessments.updateOne({ "assessmentId": "833b04bc-edac-4ebc-b28b-fba70de4089
           itemIds: ['EI02'],
           pageId: 'D73026',
           decisionItems: [],
-          nextPageDecisionBlocks: [{ regExCode: '*', nextPageId: 'D73028' }]
-        }
-        ,
-        {
-          itemIds: ['EX01'],
-          pageId: 'D73028',
-          decisionItems: [],
           nextPageDecisionBlocks: [{ regExCode: '*', nextPageId: 'D73029' }]
         }
+        
         ,
         {
           itemIds: ['EX03'],
