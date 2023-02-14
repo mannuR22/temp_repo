@@ -5891,15 +5891,9 @@ db.LAssessments.updateOne({ "assessmentId": "833b04bc-edac-4ebc-b28b-fba70de4089
           itemIds: ['HA04'],
           pageId: 'A73035',
           decisionItems: [],
-          nextPageDecisionBlocks: [{ regExCode: '*', nextPageId: 'A73036' }]
-        }
-        ,
-        {
-          itemIds: ['HA05'],
-          pageId: 'A73036',
-          decisionItems: [],
           nextPageDecisionBlocks: [{ regExCode: '*', nextPageId: 'A73037' }]
         }
+        
         ,
         {
           itemIds: ['HA06'],
@@ -6404,15 +6398,9 @@ db.LAssessments.updateOne({ "assessmentId": "833b04bc-edac-4ebc-b28b-fba70de4089
           itemIds: ['HA04'],
           pageId: 'B73052',
           decisionItems: [],
-          nextPageDecisionBlocks: [{ regExCode: '*', nextPageId: 'B73053' }]
-        }
-        ,
-        {
-          itemIds: ['HA05'],
-          pageId: 'B73053',
-          decisionItems: [],
           nextPageDecisionBlocks: [{ regExCode: '*', nextPageId: 'B73054' }]
         }
+        
         ,
         {
           itemIds: ['HA06'],
@@ -6825,15 +6813,9 @@ db.LAssessments.updateOne({ "assessmentId": "833b04bc-edac-4ebc-b28b-fba70de4089
           itemIds: ['HA04'],
           pageId: 'D73042',
           decisionItems: [],
-          nextPageDecisionBlocks: [{ regExCode: '*', nextPageId: 'D73043' }]
-        }
-        ,
-        {
-          itemIds: ['HA05'],
-          pageId: 'D73043',
-          decisionItems: [],
           nextPageDecisionBlocks: [{ regExCode: '*', nextPageId: 'D73044' }]
         }
+        
         ,
         {
           itemIds: ['HA06'],
