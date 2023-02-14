@@ -6052,8 +6052,9 @@ db.LAssessments.updateOne({ "assessmentId": "833b04bc-edac-4ebc-b28b-fba70de4089
         {
           itemIds: ['IL06'],
           pageId: 'A73059',
-          decisionItems: [],
-          nextPageDecisionBlocks: []
+          decisionItems: ["IN07"],
+          nextPageDecisionBlocks: [{ regExCode: '0', nextPageId: 'A74000' },
+          { regExCode: '1', nextPageId: 'B74000' }]
         }
         ,
         {
