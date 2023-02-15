@@ -1,5 +1,5 @@
 
-//HMA
+
 db.LIItems.updateMany({ itemId: "RV02"}, {$set:{statement: "Relationship counseling is mainly for couples who have issues."}});
 db.LIItems.updateMany({ itemId: "MV13"}, {$set:{statement: "I would include my partner when making decisions about my own money."}});
 db.LIItems.updateMany({ itemId: "RV12"}, {$set:{statement: "You find it difficult to say no to your partner as it makes you uncomfortable."}});
@@ -7,10 +7,7 @@ db.LIItems.updateMany({ itemId: "CQ04"}, {$set:{statement: "I would engage in my
 db.LIItems.updateMany({ itemId: "CQ05"}, {$set:{statement: "I would not seek external help even for serious relationship issues."}});
 db.LIItems.updateMany({ itemId: "EI02"}, {$set:{statement: "At the end of a stressful day at work, I expect my partner to comfort me, irrespective of how my partner's day went."}});
 db.LIItems.updateMany({ itemId: "FN01"}, {$set:{statement: "I would not give money to even immediate family if my partner disapproves of it."}});
-// db.LIItems.updateMany({ itemId: ""}, {$set:{statement: ""}});
 
-
-//KYP
 db.LCItems.updateMany({ itemId: "IL02"}, {$set:{statement: "I want us to always speak up when our parents interfere and we don't like it."}});
 db.LCItems.updateMany({ itemId: "HA05"}, {$set:{statement: "I would prefer the man to always take the lead in doing tasks which involve going outside and figuring things out."}});
 db.LCItemLines.updateMany({itemId: "HA05"}, {$set: {
