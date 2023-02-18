@@ -2947,7 +2947,7 @@ db.LAssessments.updateOne({assessmentId: '833b04bc-edac-4ebc-b28b-fba70de40898'}
         nextPageDecisionBlocks: [
           { regExCode: '0', nextPageId: 'K52001' },
           { regExCode: '1', nextPageId: 'K52002' },
-          { regExCode: '2', nextPageId: 'K52004' },
+          { regExCode: '2', nextPageId: 'K52003' },
           { regExCode: '3', nextPageId: 'K52004' },
         
         ]
