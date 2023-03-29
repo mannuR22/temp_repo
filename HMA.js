@@ -1,37 +1,27 @@
+
+
 db.LAssessments.updateOne({ "assessmentId": "ff737aa8-7da3-42e0-9756-c1c5dc41e7a3" }, {
     $set: {
         "pages": [
             {
-                "itemIds": ["GTXY01",],
+                "itemIds": ["CTID01",],
                 "pageId": "A7000",
-                "decisionItems": ["GTXY01",],
+                "decisionItems": [],
                 "nextPageDecisionBlocks": [
                     {
-                        "regExCode": "0",
-                        "nextPageId": "A13000"
-                    },
-                    {
-                        "regExCode": "1",
-                        "nextPageId": "B7000"
+                        "regExCode": "*",
+                        "nextPageId": "A8000"
                     }
                 ]
             },
             {
-                "itemIds": ["CLSM01",],
-                "pageId": "B7000",
-                "decisionItems": ["CLSM01",],
+                "itemIds": ["CC02",],
+                "pageId": "A8000",
+                "decisionItems": [],
                 "nextPageDecisionBlocks": [
                     {
-                        "regExCode": "0",
-                        "nextPageId": "A13000"
-                    },
-                    {
-                        "regExCode": "1",
-                        "nextPageId": "A35000"
-                    },
-                    {
-                        "regExCode": "2",
-                        "nextPageId": "A13000"
+                        "regExCode": "*",
+                        "nextPageId": "A9000"
                     }
                 ]
             },
